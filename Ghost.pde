@@ -27,6 +27,7 @@ public abstract class Ghost extends Player {
     Square[] targetSquares = potentialMoves.keySet().toArray( new Square[4] );
     
     int count;
+    
     do { 
       count = 0;
       for( int i = 0; i < targetSquares.length - 1; i++ ) {
